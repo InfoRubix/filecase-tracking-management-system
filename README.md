@@ -86,17 +86,24 @@ A comprehensive web-based file case management and tracking system built with Ne
 | ID | Auto-generated sequential ID (IDK001, IDK002...) |
 | KOTAK | Storage box/container name (user-defined) |
 | RACK | Rack number |
-| QTY | Quantity/capacity of the storage unit |
 
 ### LOG Sheet (Audit trail)
 | Field | Description |
 |-------|-------------|
 | ID | Auto-generated log entry ID |
-| TIMESTAMP | Date and time of action (Asia/Kuala_Lumpur timezone) |
+| DATETIME | Date and time of action (Asia/Kuala_Lumpur timezone) |
 | REF FILE | Reference to affected file |
 | ACTIVITY | Description of action performed |
 | LOCATION | Location context |
 | UPDATE BY | User who performed the action |
+
+### CATEGORY Sheet
+| ID | Auto-generated log entry ID |
+| CATEGORY | File category |
+
+### TYPE Sheet
+| ID | Auto-generated log entry ID |
+| TYPE | File type|
 
 ## Quick Start
 
